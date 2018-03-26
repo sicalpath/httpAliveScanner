@@ -91,7 +91,7 @@ if __name__ == '__main__':
 	#文件名  
 	file_name = argv[1]
 	#线程数量  
-	thread_num = argv[2]
+	thread_num = int(argv[2])
 	#起始时间  
 	start_time = time.clock()  
 	p = Partition(file_name, thread_num)  
